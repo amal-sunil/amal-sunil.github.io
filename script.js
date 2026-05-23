@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function tick() {
         const scrollY = window.scrollY;
-        
+
         // Calculate raw velocity (delta Y)
         const rawVelocity = scrollY - lastScrollY;
         lastScrollY = scrollY;
