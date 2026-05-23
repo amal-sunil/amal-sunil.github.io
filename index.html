@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amal Sunil - Portfolio</title>
+    <!-- Bold, geometric font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Top Navigation -->
+    <nav class="top-nav">
+        <div class="logo">Amal Sunil</div>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#" class="btn-login">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Pink Hero Section -->
+    <header class="hero-section">
+        <div class="hero-content">
+            <!-- Spinning Neo-Star -->
+            <div class="spinning-star">
+                <svg width="80" height="80" viewBox="0 0 100 100">
+                    <path d="M50 0 L60 40 L100 50 L60 60 L50 100 L40 60 L0 50 L40 40 Z" fill="#FFD24C" stroke="#000000"
+                        stroke-width="6" />
+                </svg>
+            </div>
+
+            <h1 class="hero-title">Amal<br>Sunil</h1>
+            <h2 class="hero-subtitle">A CS Engineering student.... kinda</h2>
+            <p class="hero-desc">Specializing in AI/ML, tackling complex code, and designing clean visuals.</p>
+            <a href="#projects" class="btn-primary">See Projects</a>
+        </div>
+        <div class="hero-illustration">
+            <img src="4_30 Am with coding.jpeg" alt="Hero Illustration" class="neo-image float-slow">
+        </div>
+    </header>
+
+    <!-- Scrolling Marquee Banner -->
+    <div class="marquee-banner">
+        <div class="marquee-content">
+            <span>AVAILABLE FOR INTERNSHIPS ✦ AI/ML SPECIALIST ✦ CREATIVE CODER ✦ CYBERSECURITY ENTHUSIAST ✦ </span>
+            <span>AVAILABLE FOR INTERNSHIPS ✦ AI/ML SPECIALIST ✦ CREATIVE CODER ✦ CYBERSECURITY ENTHUSIAST ✦ </span>
+        </div>
+    </div>
+
+    <!-- Wavy Divider Transition (Pink to Yellow) -->
+    <div class="wave-container">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none" class="wave-svg">
+            <path d="M0,60 C320,120 420,0 720,60 C1020,120 1120,0 1440,60 L1440,120 L0,120 Z" fill="#FFD24C"></path>
+        </svg>
+    </div>
+
+    <!-- Main Yellow Content Area -->
+    <main class="main-content">
+        <!-- Floating Parallax Symbols -->
+        <div class="floating-symbol"
+            style="top: 10%; left: 5%; --speed: -0.18px; --rot-speed: 0.1deg; --symbol-color: var(--color-pink);">✦
+        </div>
+        <div class="floating-symbol"
+            style="top: 25%; right: 8%; --speed: -0.12px; --rot-speed: -0.05deg; --symbol-color: var(--color-orange);">✖
+        </div>
+        <div class="floating-symbol"
+            style="top: 45%; left: 4%; --speed: -0.25px; --rot-speed: 0.15deg; --symbol-color: var(--color-white);">▲
+        </div>
+        <div class="floating-symbol"
+            style="top: 65%; right: 6%; --speed: -0.15px; --rot-speed: -0.08deg; --symbol-color: var(--color-pink);">✦
+        </div>
+        <div class="floating-symbol"
+            style="top: 85%; left: 10%; --speed: -0.22px; --rot-speed: 0.12deg; --symbol-color: var(--color-orange);">●
+        </div>
+
+        <!-- About Section -->
+        <section id="about" class="feature-section">
+            <div class="feature-illustration reveal-left">
+                <img src="download (2).jpeg" alt="About Graphic" class="neo-image float-slow" width='400' height>
+            </div>
+            <div class="feature-text reveal-right">
+                <h2>The future of<br>secure intelligence</h2>
+                <p>Need a robust algorithm, a highly optimized C program, or an eye-catching graphical poster? Welcome
+                    home. I'm blending core 2024 scheme computer science fundamentals with advanced AI/ML concepts and
+                    strong graphic design sensibilities.</p>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="cards-section">
+            <h2 class="section-center-title reveal-up">Recent Projects</h2>
+            <div class="card-grid">
+
+                <!-- Card 1 -->
+                <div class="neo-card reveal-up">
+                    <div class="card-icon-box bg-pink">
+                        <img src="https://via.placeholder.com/80/FFA8E4/000000?text=ESP32" alt="Drone Icon">
+                    </div>
+                    <h3>Project Sentinel</h3>
+                    <p>Designed a 3D terrain mapping prototype utilizing small drones. Engineered strictly with low-cost
+                        components accessible on a student budget, leveraging ESP32 for critical sensor data collection
+                        in dark environments.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="neo-card reveal-up">
+                    <div class="card-icon-box bg-white">
+                        <img src="https://via.placeholder.com/80/FFFFFF/000000?text=C" alt="Code Icon">
+                    </div>
+                    <h3>Vehicle Parking System</h3>
+                    <p>A comprehensive semester project built in C. Implemented custom data structures and array logic
+                        to calculate dynamic fees, featuring a highly optimized search function to retrieve vehicle
+                        status instantly by license plate number.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="neo-card reveal-up">
+                    <div class="card-icon-box bg-pink">
+                        <img src="https://via.placeholder.com/80/FFA8E4/000000?text=AI" alt="Shield Icon">
+                    </div>
+                    <h3>Aura Antivirus</h3>
+                    <p>Developed a comprehensive B2B business plan for an AI-driven antivirus micro-project. Outlined
+                        operational deployment, market analysis, and strategies for proactive threat modeling.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="cards-section">
+            <h2 class="section-center-title reveal-up">Skill Stack</h2>
+            <div class="card-grid">
+                <div class="neo-card reveal-up">
+                    <h3>Development</h3>
+                    <p>Writing efficient logic and learning modern web architecture.</p>
+                    <div class="tag-group">
+                        <span class="neo-tag">C</span>
+                        <span class="neo-tag">Python</span>
+                        <span class="neo-tag">HTML/CSS</span>
+                        <span class="neo-tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="neo-card reveal-up">
+                    <h3>Design & Media</h3>
+                    <p>Creating professional visual assets and structured layouts.</p>
+                    <div class="tag-group">
+                        <span class="neo-tag">Graphic Design</span>
+                        <span class="neo-tag">Image Editing</span>
+                        <span class="neo-tag">Posters</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="neo-footer">
+        <p>© 2026 Amal Sunil. Built with sharp edges and flat colors.</p>
+    </footer>
+
+    <!-- JavaScript connected here -->
+    <script src="script.js"></script>
+</body>
+
+</html>
